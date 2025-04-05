@@ -110,6 +110,11 @@
         padding: 0;
     }
 
+   .card2{
+      margin:0;
+      padding:0;
+   }
+
     .headingRow h2{
         display: inline-block;
         margin-left: 10px;
