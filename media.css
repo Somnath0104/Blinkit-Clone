@@ -1,14 +1,21 @@
 @media only screen and (min-width: 200px)  and (max-width: 575px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     header{
         flex-direction: column;
         position: sticky;
         top: 0;
-        
+        margin-left: 0;
         align-items: stretch;
+       
     }
 
     .left-header{
         justify-self: center;
+        width: 100%;
     }
     
     .logo{
@@ -44,11 +51,17 @@
        margin-bottom: 1px;
     }
     
-    .banner-Section :hover{
-        transform: scale(1,1);
-        height: 300px;
+    .banner-Section {
+       display: none;
+        
     }
-   
+    .banner-Section{
+        background-size: cover;
+    }
+
+    .Itam{
+        margin: 10px;
+    }
 
     .order-Banner{
         flex-direction: column;
@@ -57,24 +70,116 @@
         justify-content: center;
         margin-left: 40px;
     }
-    
-    .categorys{
-      column-count: 4;
+    .categorys2{
+        width: 500px;
+        flex-wrap: wrap;
+       justify-content: center;
        
     }
 
-    .category-Item img{  
-        width: 100%;
+    .categorys{
+        width: 500px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    .category-Item {
+       flex-wrap: wrap;
     }
 
-    .product-Section{
-        display: none;
+    .category-Item img{  
+       width: 200px;
+       z-index: 0;
     }
+
+    .categorys :hover , .categorys2 :hover {
+        transform: scale(1.0,1.0);
+        transition: .5s;
+        transition-delay: 0.2s ;
+    }
+
+    .Rows{
+      
+       margin-left: 10px;
+    }
+
+    .product-Row{
+        width: 450px;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+       
+        
+    }
+
+    .headingRow h2{
+        display: inline-block;
+        margin-left: 10px;
+        width: 200%;
+    }
+
+    .a{
+        margin-left: 0px;
+        padding-right: 20px;
+        width: 50%;
+    }
+
+   
+
+    
 
     footer{
         display: none;
     }
+
+    .footer2{
+        display: grid;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        
+        align-items: end;
+        width: 100%;
+    }
+
+    .footer2 h3{
+        font-size: 50px;
+        margin: 10px;
+        color: gray;
+    }
+
+    .footer2 h3 img{
+        width: 15%;
+        margin-top: 0px;
+    }
+
+    .footer2 h6{
+        font-size: 30px;
+        margin: 20px;
+       color: gray;
+    }
+    .footer2 p{
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .gaptip{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: skyblue;
+        margin-top: 40px;
+    }
     
+    .marginbttonforgap{
+        display: inline;
+        margin: 0px;
+        padding: 5px;
+        
+    }
 }
 
 
