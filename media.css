@@ -70,6 +70,10 @@
         justify-content: center;
         margin-left: 40px;
     }
+
+   .order-Banner  :hover{
+    transform: scale(1.0,1.0);
+    }
     .categorys2{
         width: 500px;
         flex-wrap: wrap;
@@ -118,7 +122,9 @@
       margin:0;
       padding:0;
    }
-
+   .card:hover {
+      transform: scale(1.0, 1.0);
+   }
     .headingRow h2{
         display: inline-block;
         margin-left: 10px;
