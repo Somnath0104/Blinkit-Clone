@@ -73,14 +73,11 @@
     .categorys2{
         width: 500px;
         flex-wrap: wrap;
-       justify-content: center;
-       
     }
 
     .categorys{
         width: 500px;
         flex-wrap: wrap;
-        justify-content: center;
     }
     
 
