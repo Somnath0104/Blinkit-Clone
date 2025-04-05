@@ -106,8 +106,8 @@
         flex-wrap: wrap;
         margin-left: 0px;
         row-gap: 20px;
-        justify-content: center;
-        align-items: center;
+        margin:0;
+        padding: 0;
     }
 
     .headingRow h2{
