@@ -349,3 +349,14 @@ header{
     display: flex;
 }
 
+.footer2{
+    display: none;
+}
+
+.marginbttonforgap{
+    display: none;
+}
+
+.gaptip{
+    display: none;
+}
