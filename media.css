@@ -1,69 +1,70 @@
-@media only screen and (min-width: 200px)  and (max-width: 575px) {
-    *{
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    * {
         margin: 0;
         padding: 0;
     }
 
-    header{
+    header {
         flex-direction: column;
         position: sticky;
         top: 0;
         margin-left: 0;
         align-items: stretch;
-       
+
     }
 
-    .left-header{
+    .left-header {
         justify-self: center;
         width: 100%;
     }
-    
-    .logo{
-       padding: 5px;
+
+    .logo {
+        padding: 5px;
     }
 
-    .address{
+    .address {
         padding: 20px;
         width: 300px;
     }
 
-    .address h3{
+    .address h3 {
         font-size: 18px;
     }
 
-    .address p{
+    .address p {
         font-size: 15px;
         color: rgba(0, 0, 0, 0.737);
     }
 
-    .search{
-        display:none ;
+    .search {
+        display: none;
     }
 
-    .header-btn{
+    .header-btn {
         position: fixed;
         bottom: 0;
-       justify-content: center;
-       background-color: white;
-       margin-right: 0;
-       margin-left: 0;
-       width: 100%;
-       margin-bottom: 1px;
+        justify-content: center;
+        background-color: white;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 1px;
     }
-    
+
     .banner-Section {
-       display: none;
-        
+        display: none;
+
     }
-    .banner-Section{
+
+    .banner-Section {
         background-size: cover;
     }
 
-    .Itam{
+    .Itam {
         margin: 10px;
     }
 
-    .order-Banner{
+    .order-Banner {
         flex-direction: column;
         width: 100%;
         align-items: center;
@@ -71,125 +72,261 @@
         margin-left: 40px;
     }
 
-   .order-Banner  :hover{
-    transform: scale(1.0,1.0);
-    }
-    .categorys2{
+    .categorys2 {
         width: 500px;
         flex-wrap: wrap;
+        justify-content: center;
+
     }
 
-    .categorys{
+    .categorys {
         width: 500px;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
-    
+
 
     .category-Item {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
-    .category-Item img{  
-       width: 200px;
-       z-index: 0;
+    .category-Item img {
+        width: 200px;
+        z-index: 0;
     }
 
-    .categorys :hover , .categorys2 :hover {
-        transform: scale(1.0,1.0);
+    .categorys :hover,
+    .categorys2 :hover {
+        transform: scale(1.0, 1.0);
         transition: .5s;
-        transition-delay: 0.2s ;
+        transition-delay: 0.2s;
     }
 
-    .Rows{
-      
-       margin-left: 10px;
+    .Rows {
+
+        margin-left: 10px;
     }
 
-    .product-Row{
+    .product-Row {
         width: 450px;
         flex-wrap: wrap;
         margin-left: 0px;
         row-gap: 20px;
-        margin:0;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
         padding: 0;
-    }
-   .product-Section{
-      margin:0;
-      padding:0;
-   }
 
-   .card2{
-      margin:0;
-      padding:0;
-   }
-   .card:hover {
-      transform: scale(1.0, 1.0);
-   }
-    .headingRow h2{
+    }
+
+    .product-Section{
+        margin-top: 50px;
+    }
+
+    .headingRow h2 {
         display: inline-block;
         margin-left: 10px;
         width: 200%;
     }
 
-    .a{
+    .a {
         margin-left: 0px;
         padding-right: 20px;
         width: 50%;
     }
 
-   
 
-    
 
-    footer{
+
+
+    footer {
         display: none;
     }
 
-    .footer2{
+    .footer2 {
         display: grid;
         margin-bottom: 50px;
         margin-top: 0px;
-        
+
         align-items: end;
         width: 100%;
     }
 
-    .footer2 h3{
+    .footer2 h3 {
         font-size: 50px;
         margin: 10px;
         color: gray;
     }
 
-    .footer2 h3 img{
+    .footer2 h3 img {
         width: 15%;
         margin-top: 0px;
     }
 
-    .footer2 h6{
+    .footer2 h6 {
         font-size: 30px;
         margin: 20px;
-       color: gray;
+        color: gray;
     }
-    .footer2 p{
+
+    .footer2 p {
         margin: 10px;
         font-size: 20px;
     }
 
-    .gaptip{
+    .gaptip {
         display: flex;
         width: 100%;
         height: 100px;
         background-color: skyblue;
         margin-top: 40px;
     }
-    
-    .marginbttonforgap{
+
+    .marginbttonforgap {
         display: inline;
         margin: 0px;
         padding: 5px;
-        
+
     }
 }
 
 
+/* Media query for tablet */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
 
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .left-header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .address {
+
+        width: 100%;
+        padding: 10px;
+    }
+
+    .address h3 {
+        width: 150px;
+        display: grid;
+    }
+
+    .header-btn {
+        margin: 0;
+        padding: 0;
+    }
+
+    #cart {
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .banner-Section {
+        width: 750px;
+        margin-top: 10px;
+    }
+
+    .order-Banner {
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    .categorys {
+        max-width: 750px;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+
+    .categorys2 {
+        max-width: 750px;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+
+    .category-Item {
+        width: 150px;
+        height: 160px;
+    }
+
+    .headingRow h2 {
+        margin-left: 20px;
+    }
+
+    .a {
+        margin-left: 430px;
+        padding: 0;
+    }
+
+    .product-Row {
+        margin: 0;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-left: 30px;
+    }
+
+    .usefulLinks{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (min-width: 769px ) and (max-width: 1280px ) {
+    .order-Banner{
+        max-width: 1200px;
+       margin-left: 50px;
+        flex-direction: row;
+        width: 90%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .categorys{
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .categorys2{
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .category-Item {
+        width: 150px;
+        height: 160px;
+    }
+
+    .headingRow h2 {
+        display: inline-block;
+        margin-left: 10px;
+        width: 200%;
+    }
+
+    .a {
+        margin-left: 0px;
+        padding-right: 10px;
+        width: 50%;
+    }
+
+    .headingRow{
+        margin-left: 10px;
+    }
+
+    .product-Row{
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-mid{
+        flex-wrap: wrap;
+    }
+}
