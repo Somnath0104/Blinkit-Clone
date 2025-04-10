@@ -100,7 +100,40 @@ header{
    border: none;
 }
 
+.cmd{
+    position: relative;
+    right: 2%;
+}
+.cmd:hover .rel{
+    display: block;
+}
+.rel{
+    position: absolute;
+  width: 500px;
+  background: white;
+  z-index: 2;
+  right:10%;
+  display: none;
+  padding: 10px 10px;
+  justify-content: center;
 
+  align-items: center;
+  }
+  .rel{
+    width: 400px;
+    height: 500px;
+  }
+  #num{
+    color: #fff;
+    background-color: red;
+    font-size:18px;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .imgs img{
+    height: 50px;
+    width: 50px;
+  }
 
 .banner-Section{
     max-width: 1280px;
