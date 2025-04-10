@@ -392,8 +392,9 @@ h4{
   }
 
   .search {
-      display: none;
-  }
+        display: grid;
+        flex-wrap: wrap;
+    }
 
   .header-btn {
       position: fixed;
@@ -456,12 +457,18 @@ h4{
   }
 
   .categorys :hover,
-  .categorys2 :hover {
-      transform: scale(1.0, 1.0);
-      transition: .5s;
-      transition-delay: 0.2s;
-  }
+    .categorys2 :hover,
+    .order-Banner :hover {
+        transform: scale(1.0, 1.0);
+       
+    }
 
+    .card{
+        &:hover {
+            transform: scale(1.0, 1.0);
+        }
+    }
+  
   .Rows {
 
       margin-left: 10px;
