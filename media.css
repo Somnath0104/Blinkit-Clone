@@ -367,6 +367,9 @@ h4{
       align-items: stretch;
 
   }
+  .header-fix{
+        display: grid;
+    }
 
   .left-header {
       justify-self: center;
